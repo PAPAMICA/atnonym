@@ -1,3 +1,7 @@
+const API_KEY = '';
+const EMAIL = '';
+const ALIAS = '';
+
 // Function to get mailbox ID
 async function getMailboxId(API_KEY, customer_name) {
     const API_URL = 'https://api.infomaniak.com/1/products';
@@ -184,9 +188,6 @@ async function main_rename(API_KEY, EMAIL, ALIAS) {
 }
 
 
-const API_KEY = '';
-const EMAIL = '';
-const ALIAS = '';
 
-main_create();
-main_rename();
+//main_create();
+//main_rename();
